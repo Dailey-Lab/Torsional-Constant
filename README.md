@@ -4,4 +4,4 @@ This is a Matlab oackage for automatically segmenting the diacom images, calcula
 
 This two consist of two part of codes
 - segmenting the diacom images
-- calculteing the torsional constant
+- calculteing the effective torsional constant
