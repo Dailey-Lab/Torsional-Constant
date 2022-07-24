@@ -1,7 +1,7 @@
 function [tor_const] =j_eff(rho_uct)
 
 currentFolder = pwd;
-loc =  strcat(currentFolder,'\intact'); 
+loc =  strcat(currentFolder,'\image'); % save the segemented file in the iamge folder
 cd (loc)
 
 % read all the image data for all the images
