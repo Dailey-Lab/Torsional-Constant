@@ -1,4 +1,4 @@
-function[M,center]=imsegmentation(path1)
+function[M,center]=im_segmentation(path1)
 
 %% define file directory
 currentFolder = pwd
