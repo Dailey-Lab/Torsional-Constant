@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   This function calculate the effective torsional constant
+%
+%    [tor_const] =j_eff(rho_uct) returns the effective torsional constant with the 
+%    of the density cutpff
+%    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [tor_const] =j_eff(rho_uct)
 
 currentFolder = pwd;
