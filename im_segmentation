@@ -1,6 +1,14 @@
-function[M,center]=im_segmentation(path1)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   This function segment the raw DICOM file
+%
+%    [M,center] = im_segmentation(path1) returns the segmented images and the centriod of the 
+%    segmented images with the input of the directory of the image file  
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+function [M,center] = im_segmentation(path1)
 
-%% define file directory
+%% define file directory%
 currentFolder = pwd
 projectdir = strcat(currentFolder,'/',path1)
 cd (projectdir)
